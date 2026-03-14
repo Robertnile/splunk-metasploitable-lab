@@ -43,7 +43,7 @@ Location: Port Harcourt, Nigeria
 ![Nmap Scan on Target](screenshots/18_nmap-scan-on-target.png)
 
 **SSH Brute Force**  
-![SSH Brute Force Attack](screenshots/25_ssh-brute-force-attack.png)  
+![SSH Brute Force Attack](screenshots/25_ssh brute force attack.png)  
 ![Permission Denied](screenshots/24_ssh-brute-force-permission-denied.png)  
 ![Failed SSH Logs on Metasploitable](screenshots/22_metasploitable-logs-failed-ssh-brute-force.png)  
 ![Brute Force Logs in Splunk](screenshots/23_brute-force-ingested-in-splunk.png)
