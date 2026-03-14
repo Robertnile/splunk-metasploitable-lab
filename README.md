@@ -16,20 +16,20 @@ Location: Port Harcourt, Nigeria
 
 ## 1. Lab Network Diagram
 ![Network Diagram - Kali Attacker](screenshots/01_lab-network-topology.png)  
-![Network Diagram - Metasploitable Victim](screenshots/04_Lab-network-topology.png)
+![Network Diagram - Metasploitable Victim](screenshots/04_Lab-network-topology.png.png)
 
 (More topology images in the screenshots folder)
 
 ## 2. Setting Up Splunk & Forwarding Logs
-![Splunk Started](screenshots/05_splunk-started.png)  
-![Splunk Status Running](screenshots/06_splunk-status-running-terminal.png)  
-![Splunk Login Page](screenshots/07_splunk-login-page.png)  
-![Splunk Welcome Page](screenshots/08_splunk-welcome-page.png)  
-![Created Linux Index](screenshots/09_created-Linux-Index.png)  
-![Linux Index Appears](screenshots/10_linux-index-appears.png)  
-![props.conf on Forwarder](screenshots/11_Creating-props.conf-on-the-Splunk-forwarder.png)  
-![transforms.conf on Forwarder](screenshots/12_Creating-transforms.conf.png)  
-![Receiving Port 9997 Enabled](screenshots/13_Receiving-port-9997-eneabled.png)
+![Splunk Started](screenshots/05_splunk started.png)  
+![Splunk Status Running](screenshots/06_splunk status running terminal.png)  
+![Splunk Login Page](screenshots/07_splunk login page.png)  
+![Splunk Welcome Page](screenshots/08_splunk welcome page.png)  
+![Created Linux Index](screenshots/09_created Linux Index.png)  
+![Linux Index Appears](screenshots/10_linux index appears.png)  
+![props.conf on Forwarder](screenshots/11_Creating props.conf on the Splunk forwarder.png)  
+![transforms.conf on Forwarder](screenshots/12_Creating transforms.conf.png)  
+![Receiving Port 9997 Enabled](screenshots/13_Receiving port 9997 eneabled.png)
 
 ## 3. Normal Traffic (Baseline)
 ![Baseline DNS Absent](screenshots/14_baseline-dns-absent.png)  
