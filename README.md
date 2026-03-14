@@ -51,7 +51,7 @@ Location: Port Harcourt, Nigeria
 ## 5. Detections & Alerts
 
 **Linux Account & Privilege Monitoring Dashboard**  
-![Privilege Monitoring Dashboard](screenshots/29_Linux-Account-&-Privilelge-Monitoring-Metasploitable.png)
+![Privilege Monitoring Dashboard](screenshots/29_Linux-Account-&-Privilelge-Monitoring-Metasploitable.png.png)
 
 **Useradd / Privilege Abuse Detection**  
 ![Useradd Detection](screenshots/28_Splunk_Useradd_Privilege_Abuse_Detection.png)
