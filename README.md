@@ -4,7 +4,7 @@ This project shows how I set up a small security lab, ran real attacks on Metasp
 
 **Created by:** Nwodu Robert  
 GitHub: @Robertnile  
-Location: Port Harcourt, Nigeria  
+Location: Nigeria  
 
 **Tools used**  
 - Victim: Metasploitable3 (Ubuntu)  
@@ -68,5 +68,14 @@ Location: Port Harcourt, Nigeria
 ## All Screenshots
 See every screenshot from the project here:  
 → [screenshots folder](screenshots/)
+
+## Lessons Learned
+- Log forwarding is critical — configuring Universal Forwarder and receiving port correctly took time, but was essential for real-time detection.
+- Zeek conn.log is powerful for network-based detections (scans, brute-force, reverse shells), but needs correct props/transforms.conf parsing in Splunk.
+- Small filename mismatches (space vs hyphen) can break Markdown image links — always double-check exact names.
+- Privilege escalation (sudo useradd) is very visible in auth.log — easy to detect with simple searches and alerts.
+- Simulated attacks help understand attacker mindset and how to build better detections.
+- Patience is key in cybersecurity work.  
+  When things feel messy or broken (e.g., log parsing failing, log ingestion issues, configurations failed), stepping back, researching, and trying one small fix at a time often leads to breakthroughs. This project taught me that persistence and systematic troubleshooting are more important than rushing to the next step.
 
 Thanks for checking out my lab!
