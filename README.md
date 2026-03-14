@@ -21,7 +21,7 @@ Location: Port Harcourt, Nigeria
 (More topology images in the screenshots folder)
 
 ## 2. Setting Up Splunk & Forwarding Logs
-![Splunk Started](screenshots/05_splunkstarted.png)  
+![Splunk Started](screenshots/05_splunks-tarted.png)  
 ![Splunk Status Running](screenshots/06_splunk status running terminal.png)  
 ![Splunk Login Page](screenshots/07_splunk login page.png)  
 ![Splunk Welcome Page](screenshots/08_splunk welcome page.png)  
