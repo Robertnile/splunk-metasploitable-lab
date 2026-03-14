@@ -22,14 +22,14 @@ Location: Port Harcourt, Nigeria
 
 ## 2. Setting Up Splunk & Forwarding Logs
 ![Splunk Started](screenshots/05_splunk-started.png)  
-![Splunk Status Running](screenshots/06_splunk status running terminal.png)  
-![Splunk Login Page](screenshots/07_splunk login page.png)  
-![Splunk Welcome Page](screenshots/08_splunk welcome page.png)  
-![Created Linux Index](screenshots/09_created Linux Index.png)  
-![Linux Index Appears](screenshots/10_linux index appears.png)  
-![props.conf on Forwarder](screenshots/11_Creating props.conf on the Splunk forwarder.png)  
-![transforms.conf on Forwarder](screenshots/12_Creating transforms.conf.png)  
-![Receiving Port 9997 Enabled](screenshots/13_Receiving port 9997 eneabled.png)
+![Splunk Status Running](screenshots/06_splunk-status-running-terminal.png)  
+![Splunk Login Page](screenshots/07_splunk-login-page.png)  
+![Splunk Welcome Page](screenshots/08_splunk-welcome-page.png)  
+![Created Linux Index](screenshots/09_created-Linux-Index.png)  
+![Linux Index Appears](screenshots/10_linux-index-appears.png)  
+![props.conf on Forwarder](screenshots/11_Creating-props.conf-on-the-Splunk-forwarder.png)  
+![transforms.conf on Forwarder](screenshots/12_Creating-transforms.conf.png)  
+![Receiving Port 9997 Enabled](screenshots/13_Receiving-port-9997-eneabled.png)
 
 ## 3. Normal Traffic (Baseline)
 ![Baseline DNS Absent](screenshots/14_baseline-dns-absent.png)  
@@ -43,8 +43,8 @@ Location: Port Harcourt, Nigeria
 ![Nmap Scan on Target](screenshots/18_nmap-scan-on-target.png)
 
 **SSH Brute Force**  
-![SSH Brute Force Attack](screenshots/25_ssh brute force attack.png)  
-![Permission Denied](screenshots/24_ssh brute force permission denied.png)  
+![SSH Brute Force Attack](screenshots/25_ssh-brute-force-attack.png)  
+![Permission Denied](screenshots/24_ssh-brute-force-permission-denied.png)  
 ![Failed SSH Logs on Metasploitable](screenshots/22_metasploitable-logs-failed-ssh-brute-force.png)  
 ![Brute Force Logs in Splunk](screenshots/23_brute-force-ingested-in-splunk.png)
 
