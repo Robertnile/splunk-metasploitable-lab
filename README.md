@@ -3,7 +3,7 @@
 This project shows how I set up a small security lab, ran real attacks on Metasploitable3, forwarded logs to Splunk, and built detections, dashboards, and alerts.
 
 **Created by:** Nwodu Robert  
-Aspiring SOC Analyst | Currently training at Luke Tech Academy, Canada
+Aspiring SOC Analyst | Currently training at Luke Tech Limited, Canada
 GitHub: @Robertnile  
 Location: Nigeria  
 
