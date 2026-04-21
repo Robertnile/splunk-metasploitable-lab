@@ -75,31 +75,48 @@ See every screenshot from the project here:
 Here are some of the key SPL queries I used to detect the attacks in Splunk:
 
 **SSH Brute Force Detection**  
-'''spl
+```spl
 index=main sourcetype=linux_secure "Failed password" OR "authentication failure"
 | stats count by src_ip user
 | where count > 5
 | sort -count
+```
 Triggers on high failed login attempts from the same IP/user.
 
-New User / Privilege Escalation Detection
+**New User / Privilege Escalation Detection** 
+```
 index=main sourcetype=linux_secure ("new user" OR "new group" OR "COMMAND=*useradd*" OR "COMMAND=*usermod*")
 | table _time host user _raw
 | sort -_time
+```
 Detects suspicious account creation or modification via sudo
 
-Reverse Shell / C2 Traffic Detection (Zeek)
+**Reverse Shell / C2 Traffic Detection (Zeek)**
+```
 index=zeek sourcetype=zeek:conn id_orig_h=192.168.122.8 id_resp_p=4444
 | table _time id_orig_h id_orig_p id_resp_h id_resp_p proto service duration orig_bytes resp_bytes conn_state
 | where duration > 10 OR orig_bytes > 1000
+```
 Identifies long-lived outbound TCP connections to non-standard ports (e.g., Meterpreter beaconing).
 
-Nmap Scan Detection (Zeek)
+**Nmap Scan Detection (Zeek)**
+```
 index=zeek sourcetype=zeek:conn id_orig_h=192.168.122.3
 | stats count values(id_resp_p) as scanned_ports by id_orig_h id_resp_h
 | where count > 20
 | sort -count
+```
 Flags IPs scanning many ports (typical nmap behavior)
+
+## MITRE ATT&CK Mapping
+|Attack Simulated        |Tactic                  | Technique ID                                               
+|------------------------|------------------------|-----------------------------------------------------------------
+|   Nmap Scan            |Reconnaissance          |[T1046](https://attack.mitre.org/techniques/T1046/) 
+| SSH Brute Force        | Credential Access      | [T1110.001](https://attack.mitre.org/techniques/T1110/001/)
+| New User Creation      | Persistence            | [T1136.001](https://attack.mitre.org/techniques/T1136/001/) 
+| Sudo Privilege Abuse   | Privilege Escalation   | [T1548.003](https://attack.mitre.org/techniques/T1548/003/)    
+| Drupal RCE             | Initial Access         | [T1190](https://attack.mitre.org/techniques/T1190/)  
+| Reverse Shell          | Command & Control      | [T1571](https://attack.mitre.org/techniques/T1571/) 
 
 ## Log Flow Architecture
 1. Kali Linux performs attacks against Metasploitable3
