@@ -1,5 +1,12 @@
 # Splunk SIEM Home Lab – Attack Simulation & Detection
 
+![Splunk](https://img.shields.io/badge/Splunk-SIEM-FF69B4?style=flat-square&logo=splunk&logoColor=white)
+![Zeek](https://img.shields.io/badge/Zeek-Network%20Monitor-0F6E56?style=flat-square)
+![Metasploitable3](https://img.shields.io/badge/Metasploitable3-Victim-E95420?style=flat-square)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-Attacker-2879d0?style=flat-square&logo=kalilinux&logoColor=white)
+![SPL](https://img.shields.io/badge/SPL-Detection%20Queries-orange?style=flat-square)
+![VirtualBox](https://img.shields.io/badge/VirtualBox-Homelab-183A61?style=flat-square&logo=virtualbox&logoColor=white)
+
 This project shows how I set up a small security lab, ran real attacks on Metasploitable3, forwarded logs to Splunk, and built detections, dashboards, and alerts.
 
 **Created by:** Nwodu Robert  
