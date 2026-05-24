@@ -1,4 +1,4 @@
-# 📄 Project Report — Splunk SIEM Home Lab
+#  Project Report — Splunk SIEM Home Lab
 
 **Author:** Nwodu Robert  
 **Role:** Aspiring SOC Analyst | Training at Luke Tech Limited, Canada  
