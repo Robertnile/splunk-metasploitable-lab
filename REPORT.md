@@ -55,7 +55,7 @@ The lab runs entirely in **Oracle VirtualBox** with three virtual machines:
 
 | VM | Role | OS | IP Address |
 |----|------|----|------------|
-| Splunk Server | SIEM / Log Aggregator | Ubuntu (Splunk Enterprise) | 192.168.122.x |
+| Splunk Server | SIEM / Log Aggregator | Ubuntu (Splunk Enterprise) | 192.168.122.7 |
 | Metasploitable3 | Victim Machine | Ubuntu (Metasploitable3) | 192.168.122.8 |
 | Kali Linux | Attacker Machine | Kali Linux | 192.168.122.3 |
 
